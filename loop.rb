@@ -25,3 +25,11 @@
 # 	end
 # end
 
+#Each Method
+
+(0..5).each do |i|
+	puts i;
+end
+
+
+
