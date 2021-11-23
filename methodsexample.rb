@@ -17,3 +17,4 @@ def calculate_area(length=10,width=20)
 	puts length*width
 end
 calculate_area(30, 30)
+#Getter and setter methods
