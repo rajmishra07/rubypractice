@@ -29,11 +29,17 @@
 
 arr = [20,50,60,10,3];
 i=0;
-min = [0]
+b;
+min=[];
 while (i < arr.size)
-	if(min[0]>arr[i])
-	min[0] = arr[i]
+	if(min[0] > arr[i])
+		b = arr[i]
+		arr[i] = min[0]
+		min[0] = b
 	end
 	i = i+1;	
 end
-puts min[0] ;
+puts min[0] 
+
+
+#Practicing array
