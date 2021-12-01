@@ -48,20 +48,36 @@
 
 # Negative_sum and Posetive_sum
 
-array = [1,2,3,4,5,6,-10, -90, -8, 30, 60]
-i = 0
-posetive_sum = 0
-negative_sum = 0
+# array = [1,2,3,4,5,6,-10, -90, -8, 30, 60]
+# i = 0
+# posetive_sum = 0
+# negative_sum = 0
 
-while i < array.size 
-  if array[i] > 0
-    posetive_sum += array[i]
-  elsif array[i] < 0
-    negative_sum += array[i] 
-  end
-  i += 1
-end
- puts "posetive_sum = #{posetive_sum}"
- puts "negative_sum = #{negative_sum}"
+# while i < array.size 
+#   if array[i] > 0
+#     posetive_sum += array[i]
+#   elsif array[i] < 0
+#     negative_sum += array[i] 
+#   end
+#   i += 1
+# end
+#  puts "posetive_sum = #{posetive_sum}"
+#  puts "negative_sum = #{negative_sum}"
 
  
+array = [12015 , 12932 , 18146 ,18265]
+i =0 
+j = 0
+  while i < array.size
+    b = array[i]
+    while j < 2
+    q = b / 10
+    a = q % 10
+    b = a
+    puts a
+    j += 1
+    end
+    i +=1
+  end
+  
+
