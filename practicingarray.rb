@@ -109,11 +109,14 @@
 #   end
 
 i = 0
-name = Array.new(3)
-puts "=====#{name.size}====="
-while i < name.size
-arr_value = gets.to_i
-name << arr_value
-i += 1
+name = Array.new
+puts "enter the size of array:"
+arr_size = gets.to_i
+ puts "Enter the values:"
+for i in i...arr_size
+  values = gets.to_i
+  if values % 2 == 0
+  name << values
+  end
 end
-puts "=====#{name}====="
+puts "The numbers are : #{name}"
