@@ -78,45 +78,31 @@
 
 # #How To store value in array by user. Pending
 
-# # arr1 = Array.new
-# # i = 0
-# # puts "Enter the numbers:"
-# # while i < 3
-# # num = gets.to_i
-# # arr1[i] << num
-# # i += 1
-# # end
-# # while i < 3
-# # puts arr1[i]
-# # i += 1
-# # end
-
-# arr1 = [1,2,3]
-# arr2 = [4,5,6]
-# arr3 = Array.new();
 # i = 0
-#   while i < 3
-#   b = arr1[i]
-#   i += 1
-#   end 
-#   while i < 3
-#   b = arr2[i]
-#   i += 1
-#   end 
-#   while i < 6
-#     puts arr3[i]
-#     i += 1
-#   end
+# array1 = Array.new
+# array2 = Array.new
 
-i = 0
-name = Array.new
-puts "enter the size of array:"
-arr_size = gets.to_i
- puts "Enter the values:"
-for i in i...arr_size
-  values = gets.to_i
-  if values % 2 == 0
-  name << values
-  end
-end
-puts "The numbers are : #{name}"
+# puts "enter the size of array:"
+# arr_size = gets.to_i
+#  puts "Enter the values:"
+# for i in i...arr_size
+#   values = gets.to_i
+#   name << values
+# end
+#puts "The numbers are : #{name}"
+
+ arr1 = [1,2,3]
+ arr2 = [4,5,6]
+ arr3 = Array.new
+ i = 0
+    while i < 3
+    arr3 << arr1[i]
+    i += 1
+    end
+    puts "The value: #{arr3}" 
+    while i < 6
+      arr3 << arr1[i]
+      i += 1
+    end
+   puts "The value: #{arr3}"
+
