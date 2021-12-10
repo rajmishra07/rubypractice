@@ -76,7 +76,7 @@
 #   #    puts i
 #   # end
 
-# #How To store value in array by user. Pending
+# #How To store value in array by user.
 
 # i = 0
 # array1 = Array.new
@@ -91,18 +91,17 @@
 # end
 #puts "The numbers are : #{name}"
 
- arr1 = [1,2,3]
- arr2 = [4,5,6]
- arr3 = Array.new
- i = 0
-    while i < 3
-    arr3 << arr1[i]
-    i += 1
-    end
-    puts "The value: #{arr3}" 
-    while i < 6
-      arr3 << arr1[i]
-      i += 1
-    end
-   puts "The value: #{arr3}"
-
+  arr1 = [1,2,3]
+  arr2 = [4,5,6]
+  arr3 = Array.new
+i = 0
+while i < arr1.size
+  arr3 << arr1[i]
+  i += 1
+end
+i = 0
+while i < arr2.size
+  arr3 << arr2[i]
+  i += 1
+end
+puts arr3
