@@ -157,6 +157,16 @@
 
 
 array = [2,4,5,3,5,4,3]
-puts array.delete_at 0
+# puts array.take(2)  it print the given indices value of array 
+# puts array.drop(2)  it do not print the given indices value of array 
+# puts array.push(10) it add the new element at the end of the array
+# puts array.pop      it remove the last element of the array 
+# puts array.first it prints the first value of array
+# puts array.fetch(6,"opps") it shows manual error when indices goes above 
+# puts array.unshift(10)    it add the element in the begining of array
+# puts array.insert(3,"raj") it inserts the value at given indices of array
+# puts array.delete_at(2) it deletes the value from given indices
+# puts array.compact it remove the nill value from an array
+# array.each {|a| puts a *2} ,puts array.map{|a| a*2} it iterates all value 
 
 
