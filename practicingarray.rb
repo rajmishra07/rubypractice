@@ -156,7 +156,7 @@
 # puts array.reverse
 
 
-array = [2,4,5,3,5,4,3]
+array = [10,20,30,50,60]
 # puts array.take(2)  it print the given indices value of array 
 # puts array.drop(2)  it do not print the given indices value of array 
 # puts array.push(10) it add the new element at the end of the array
@@ -168,5 +168,11 @@ array = [2,4,5,3,5,4,3]
 # puts array.delete_at(2) it deletes the value from given indices
 # puts array.compact it remove the nill value from an array
 # array.each {|a| puts a *2} ,puts array.map{|a| a*2} it iterates all value 
+# array.concat(["raj"]) it add the given value in array
+# puts array.cycle(3){|x| puts x} it acts like loop
+# array.delete_if{|a| a < 50} it acts like if condition
+# puts array.delete(50) it delete the number 
+
+# array.difference([10,40,30,50]) it gives different value
 
 
