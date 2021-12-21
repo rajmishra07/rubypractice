@@ -148,20 +148,20 @@
 
 
 # Array methods
-
-# array = [10,3,50,1,0,3,20]
+ #Doubt
+        #fill
+ #array = [10,3,50,1,0,3,20]
+ array = [10,20,30,50,60]
+ #b = [array1,array2]
 # puts array.sort
 # puts array.include? 3
 # puts array.count
 # puts array.reverse
-
-
-array = [10,20,30,50,60]
 # puts array.take(2)  it print the given indices value of array 
 # puts array.drop(2)  it do not print the given indices value of array 
 # puts array.push(10) it add the new element at the end of the array
 # puts array.pop      it remove the last element of the array 
-# puts array.first it prints the first value of array
+# puts array.first(2) it prints the  value of array form first indices
 # puts array.fetch(6,"opps") it shows manual error when indices goes above 
 # puts array.unshift(10)    it add the element in the begining of array
 # puts array.insert(3,"raj") it inserts the value at given indices of array
@@ -172,7 +172,20 @@ array = [10,20,30,50,60]
 # puts array.cycle(3){|x| puts x} it acts like loop
 # array.delete_if{|a| a < 50} it acts like if condition
 # puts array.delete(50) it delete the number 
-
+# array.combination(2).to_a it provides the combination of the
 # array.difference([10,40,30,50]) it gives different value
+# array.append(3) it is same as push
+# puts b.assoc(3) it indicates the given value of which array in which first value matches 
+    #* in this first we have to make an object of both array  
+# .at_() it gives index of array
+# puts array.bsearch {|x| x >= 60 } it provide one greater value of array
+# puts array.select{|num| num.even? } => [2, 4] it filters the  value of array
+# puts array1.intersection array2 it prints the same value of array
+# puts array.join("-") it joins the array
+# puts arra.keep_if() it also like if condition
+# prepend() it is like unshift 
+# array.union it combine the both array with unique elements
+# array.zip it is like determinent 
+# puts array.sum
 
 
