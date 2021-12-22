@@ -151,7 +151,7 @@
  #Doubt
         #fill
  #array = [10,3,50,1,0,3,20]
- array = [10,20,30,50,60]
+ #array = [10,20,30,50,60]
  #b = [array1,array2]
 # puts array.sort
 # puts array.include? 3
@@ -187,5 +187,14 @@
 # array.union it combine the both array with unique elements
 # array.zip it is like determinent 
 # puts array.sum
+
+
+# Hash
+
+my_info = {
+    name => "raj mishra",
+    gender => "Male",
+    grade => "A+"    
+}
 
 
