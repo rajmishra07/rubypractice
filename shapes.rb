@@ -75,6 +75,12 @@
  # end
  # area_of_square
 
+
+
+
+
+ 
+
 # include Math
 
 # def area_of_circle()
@@ -87,6 +93,9 @@
 # end
 
 # area_of_circle
+
+
+
 
 
 

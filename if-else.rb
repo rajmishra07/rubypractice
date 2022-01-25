@@ -30,13 +30,18 @@
 # end
 		
 #Weather
-puts "Enter your surrounding Temperature:"
-    temp = gets.to_i
-    if (temp < 0)
-    	puts "Freezing weather"
-    elsif (temp >= 0  || temp <10)
-    	puts "Very cold weather"
-    elsif(temp >=10 || temp < 20)
-    	puts "Cold Weather"
-    elsif(temp >=20 || temp <30)
-    elsif(temp>=30 || temp <40)
+# puts "Enter your surrounding Temperature:"
+#     temp = gets.to_i
+#     if (temp < 0)
+#     	puts "Freezing weather"
+#     elsif (temp >= 0  && temp <10)
+#     	puts "Very cold weather"
+#     elsif(temp >=10 && temp < 20)
+#     	puts "Cold Weather"
+#     elsif(temp >= 20 && temp < 30)
+#         puts "Normal in temperature"
+#     elsif(temp >= 30 && temp < 40)
+#         puts "Its hot"
+#     elsif(temp >=40)
+#         puts "Very hot"
+#     end

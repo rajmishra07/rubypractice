@@ -186,15 +186,7 @@
 # prepend() it is like unshift 
 # array.union it combine the both array with unique elements
 # array.zip it is like determinent 
-# puts array.sum
+#puts array.sum
 
-
-# Hash
-
-my_info = {
-    name => "raj mishra",
-    gender => "Male",
-    grade => "A+"    
-}
 
 

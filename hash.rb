@@ -49,6 +49,7 @@
 # range2 = ('raja'..'rajz').to_a
 # puts range2
 
+
 # def selection_of_child(a)
 # $age = a
 # case $age
@@ -69,13 +70,11 @@
 # selection_of_child(child)
 
 
-class Raj
-def add(a,b)
-puts a+b
-end
-end
-obj = Raj.new
-obj.add(10,20)
+
+
+#starting Rails.
+
+
 
 
 
